@@ -622,9 +622,9 @@ color: rgb(63, 160, 63);
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
-  .nav__toggle {
+  /* .nav__toggle {
     display: none;
-  }
+  } */
   .nav-link {
     color: var(--second-color);
   }
