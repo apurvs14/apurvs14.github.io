@@ -61,14 +61,19 @@
             </a>
           </li>
           <li class="nav__item">
-            <a href="./Apurv_Singh_Resume.pdf" id="resume-link-1" class="nav__link nav-link resume"
+            <!-- <a href="./Apurv_Singh_Resume.pdf" id="resume-link-1" class="nav__link nav-link resume"
               download="Apurv_Singh_Resume"
               onclick="window.open('https://drive.google.com/file/d/1pemp97divh-I-1DAXZ2gidsIcJfJS0bc/view?usp=share_link')">
               <i class="uil uil-message nav_icon"></i> Resume
               <button id="resume-button-1" style="width: 0%; background-color: inherit; border: 0;"
                 download="Apurv_Singh_Resume"
                 onclick="window.open('https://drive.google.com/file/d/1pemp97divh-I-1DAXZ2gidsIcJfJS0bc/view?usp=share_link')"></button>
-            </a>
+            </a> -->
+
+            <button id="resume-button-1" onclick="resumeDownload()" class="nav-link resume" >
+              <i class="fa-solid fa-file-arrow-down icon"></i>
+              <a id="resume-link-1" href="./Apurv_Singh_Resume.pdf" class="nav-name" download>Resume</a>
+            </button>
           </li>
         </ul>
       </div>
@@ -90,13 +95,17 @@
             <div class="text"></div>
           </div>
         </h1>
-        <a href="./Apurv_Singh_Resume.pdf" id="resume-link-2" class="button resume" download="Apurv_Singh_Resume" 
-        >
+        <!-- <a href="./Apurv_Singh_Resume.pdf" id="resume-link-2" class="button resume" download="Apurv_Singh_Resume" 
+        onclick="window.open('https://drive.google.com/file/d/1pemp97divh-I-1DAXZ2gidsIcJfJS0bc/view?usp=share_link')">
           Download Resume
           <button id="resume-button-2" style="width: 0%; background-color: inherit; border: 0;"
                 download="Apurv_Singh_Resume"
                 onclick="window.open('https://drive.google.com/file/d/1pemp97divh-I-1DAXZ2gidsIcJfJS0bc/view?usp=share_link')"></button>
-        </a>
+        </a> -->
+        <button id="resume-button-2" onclick="resumeDownload()" class="nav-link resume" >
+          <i class="fa-solid fa-file-arrow-down icon"></i>
+          <a id="resume-link-1" href="./Apurv_Singh_Resume.pdf" class="nav-name" download>Resume</a>
+        </button>
       </div>
 
       <div id="contact-linkedin" class="home__social">

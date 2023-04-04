@@ -102,3 +102,9 @@ var typing=new Typed(".text", {
     backSpeed: 40  ,
     loop: true,
 });
+
+function resumeDownload(){
+
+    window.open('https://drive.google.com/file/d/1pemp97divh-I-1DAXZ2gidsIcJfJS0bc/view?usp=share_link')
+
+}
