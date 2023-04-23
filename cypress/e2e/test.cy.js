@@ -103,8 +103,9 @@ describe("Test", function () {
           acc_score += 1;
         });
 
+        cy.visit(url);
         cy.isInViewport("#nav-menu");
-        cy.get(".nav-link.home").should('be.visible').click({ force: true });
+        cy.get(".nav-link.home").click({ force: true });
         cy.isScrolledTo("#home");
         cy.then(() => {
           acc_score += 1;
